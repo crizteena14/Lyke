@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christeena's Portfolio</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #ff7eb3, #ff758f);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        nav {
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 10px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #ff758f;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .about, .hobbies, .contact {
+            text-align: center;
+        }
+
+        .about h2, .hobbies h2, .contact h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #ff758f;
+        }
+
+        .about p, .hobbies p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+
+        .hobbies ul {
+            list-style: none;
+        }
+
+        .hobbies ul li {
+            background: #ffebf1;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .contact a {
+            color: #ff758f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact a:hover {
+            color: #333;
+        }
+
+        footer {
+            background: #ff758f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 5px 0;
+            }
+
+            section {
+                padding: 40px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Christeena's Portfolio</h1>
+        <p>A journey into creativity, coding, and learning</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Christeena, a computer science engineering student at SCMS School of Engineering and Technology, Kerala, India.</p>
+        <p>I love coding, learning new things, and bringing creativity into every project I work on.</p>
+        <p>With strong group and creative skills, I enjoy collaborating and thinking outside the box to solve problems.</p>
+    </section>
+
+    <section id="hobbies" class="hobbies">
+        <h2>My Hobbies</h2>
+        <p>Here are some of the things I enjoy doing:</p>
+        <ul>
+            <li>🎨 Drawing</li>
+            <li>📺 Watching series</li>
+            <li>🍴 Eating</li>
+            <li>💤 Sleeping</li>
+            <li>🎥 Editing</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me!</p>
+        <p>Email: <a href="mailto:christeenasimon14@gmail.com">christeenasimon14@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/christeena-simon-5446612a1" target="_blank">Christeena Simon</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Christeena Simon. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
